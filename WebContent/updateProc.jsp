@@ -14,10 +14,7 @@
 		String num = request.getParameter("num");
 		String title = request.getParameter("title");
 		String comments = request.getParameter("comments");
-		String writer = request.getParameter("writer");
-		String cdate = request.getParameter("cdate");
-		String views = request.getParameter("views");
-		String likes = request.getParameter("likes");
+		
 		
 		PreparedStatement pstmt;
 		try{
